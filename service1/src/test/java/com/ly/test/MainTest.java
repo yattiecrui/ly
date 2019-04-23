@@ -18,7 +18,7 @@ public class MainTest {
 
     @Test
     public void encrypt(){
-        String a = stringEncryptor.encrypt("Liuyong123!");
+        String a = stringEncryptor.encrypt("Liuyong123!aa");
         System.out.println(a);
     }
 }
